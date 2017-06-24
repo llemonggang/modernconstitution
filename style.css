@@ -1,6 +1,12 @@
+.container {
+	padding: 75px;
+}
+
 body {
 	font-family: 'Slabo 27px', serif;
 	text-align: center;
+	margin: auto;
+    width: 50%;
 }
 
 h1 {
@@ -12,6 +18,9 @@ h1 {
 	border-width: 5px;
 	border-radius: 10px;
 	border-color: rgba(163,165,164,.5);
+	padding: 10px;
+	margin: 10px;
+	margin-top:  10px;
 }
 
 header h3 {
@@ -20,6 +29,7 @@ header h3 {
 
 hr {
 	height: 5px;
+	width: 100;
 	display: block;
 	border: 0;
 	border-radius: 3px;

@@ -1,7 +1,36 @@
-header h1 {
+body {
 	font-family: 'Slabo 27px', serif;
+	text-align: center;
+}
+
+h1 {
+	display: inline;
+	color: #E8A94F;
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 100px;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 10px;
+	border-color: rgba(163,165,164,.5);
 }
 
 header h3 {
 	text-transform: uppercase;
+}
+
+hr {
+	height: 5px;
+	display: block;
+	border: 0;
+	border-radius: 3px;
+	background-color: #4FC4E8;
+}
+
+.section {
+	color: #EA844D;
+}
+
+footer ul li {
+	display: inline;
+	list-style: none;
 }
